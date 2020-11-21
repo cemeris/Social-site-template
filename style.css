@@ -27,3 +27,282 @@ body {
     border-radius: 8px;
     margin: 0 0 16px 0;
   }
+
+  td {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px 6px 0px 0px; 
+    position: absolute;
+    width: 328px;
+    height: 455px;
+    left: 1037px;
+    top: 1792px;
+  }
+
+  .chat-navigation-header nav {
+    position: absolute;
+    width: 328px;
+    height: 47px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 6px 6px 0px 0px;
+    display: flex;
+  }
+
+  .blue-circle {
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    margin: 7px 287px 7px 8px;
+  }
+
+  .name {
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    margin: 14px 237px 13px 48px;
+  }
+
+  .more-icon {
+    position: absolute;
+    margin: 23px 220.8px 18.84px 98px;
+  }
+
+  .minimize-icon {
+    position: absolute;
+    width: 15.17px;
+    height: 2.17px;
+    margin: 23px 47.83px 21.83px 265px;
+  }
+
+  .exit-icon {
+    position: absolute;
+    width: 15.17px;
+    height: 15.17px;
+    margin: 16px 16.83px 15.83px 296px;
+  }
+  
+  .scrollable {
+    overflow-y: scroll;
+  }
+
+  .tipically {
+    position: absolute;
+    width: 213px;
+    height: 19px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin: 76px 58px 360px 57px;
+  }
+
+  .industry {
+    position: absolute;
+    width: 49px;
+    height: 16px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #66676B;
+    margin: 108px 146px 331px 133px;
+  }
+
+  .hi-sally {
+    position: absolute;
+    width: 306px;
+    height: 48px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #66676B;
+    margin: 130px 18px 277px 4px;
+  }
+
+  .when-you {
+    position: absolute;
+    width: 215px;
+    height: 32px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #66676B;
+    margin: 227px 63px 196px 50px;
+  }
+
+  #Question-A-goes-here {
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    border: none;
+    margin: 270px 34px 155px 124px;
+  }
+
+  #Question-A-goes-here::placeholder {
+    position: absolute;
+    width: 148px;
+    height: 18px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #080808;
+  }
+
+  #Question-B-goes-here {
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    border: none;
+    margin: 318px 34px 107px 124px;
+  }
+
+  #Question-B-goes-here::placeholder {
+    position: absolute;
+    width: 148px;
+    height: 18px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #080808;
+  }
+
+  #Question-C-goes-here {
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    border: none;
+    margin: 366px 34px 59px 124px;
+  }
+
+  #Question-C-goes-here::placeholder {
+    position: absolute;
+    width: 148px;
+    height: 18px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #080808;
+  }
+
+  .chat-navigation-footer nav {
+    position: absolute;
+    width: 328px;
+    height: 52px;
+    bottom: 0;
+    background: #FFFFFF;
+    display: flex;
+  }
+
+  .circle-plus{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 16px 298px 16px 10px;
+  }
+
+  .add-image {
+    position: absolute;
+    height: 17.83px;
+    width: 18.56px;
+    margin: 17px 268.43px 17.16px 41px;
+  }
+
+  .add-sticker {
+    position: absolute;
+    height: 17.83px;
+    width: 18.56px;
+    margin: 16px 236.27px 17.32px 74px;
+  }
+
+  .add-gif {
+    position: absolute;
+    height: 17.83px;
+    width: 18.56px;
+    margin: 16px 203.87px 18.17px 105px;
+  }
+
+  #Aa {
+    position: absolute;
+    width: 148px;
+    height: 36px;
+    background: #F1F2F5;
+    border-radius: 100px;
+    border: none;
+    margin: 8px 45px 8px 135px;
+  }
+
+  #Aa::placeholder {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #8C939C;
+    padding-left: 10px;
+  }
+
+  .smile-icon {
+    position: absolute;
+    height: 19px;
+    width: 19px;
+    margin: 17px 54px 16px 255px;
+  }
+
+  .more-options {
+    position: absolute;
+    height: 10px;
+    width: 10.5px;
+    margin: 20.5px 18px 21.5px 299.5px;
+  }
+
+ 
+  
+
+  
+
+  
+
