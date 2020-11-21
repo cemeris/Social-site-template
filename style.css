@@ -306,3 +306,240 @@ body {
 
   
 
+
+  /* nr10 augšējā josla sākums*/
+
+  .nr10-topLineContainer{
+    position: relative;
+    width: 1448px;
+    height: 61;
+    background-color: white;
+    margin: auto;   
+  }
+  .nr10-left-side-container{
+    position: absolute;   
+    width: 344px;
+    height: 61px;
+  }
+  .nr10-middle-container{
+    position: absolute;    
+    width: 776px;
+    height: 61px;
+    left: 365px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .nr10-name-and-blue-dot-container{
+    position: absolute;
+    width: 90px;
+    height: 61px;
+    left: 1156px; 
+  }
+  .nr10-right-side-container{
+    position: absolute;    
+    width: 192px;
+    height: 61px;
+    right: 9px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .nr10-FB-icon-class{
+    position: absolute;
+    top:10px;
+    left: 14px;
+  } 
+  .nr10-input-container {
+    position: absolute;
+    margin-left:62px;
+    margin-top: 10px;        
+  }
+  .nr10-input-field {
+    width: 281px;
+    height: 40px;
+    background-color: #F1F2F5;
+    border-radius: 100px;
+    border: 0;
+    padding: 11px 11px 11px 37px;
+  }
+  nr10-input-field::placeholder {
+    font-size: 15px;
+    color: 66676B;
+  }     
+  .nr10-input-field:focus {
+    outline: none;
+    background-color: #e3e5e9;
+  }
+  .nr10-search-icon-class{
+    position: absolute;
+    top:12px;
+    left: 12px;
+  }
+
+  .nr10-blue-dot{
+    position: absolute;
+    background-color:#0572EF;
+    width: 30px;
+    height: 30px;    
+    border-radius: 15px;
+    top: 16px;
+    margin-right: 7px;           
+  }
+  .nr10name{
+    position: absolute;    
+    font-size: 18px;
+    color: #080808;
+    font-family: Helvetica;
+    top: 21px;
+    margin-left: 37px;
+    margin-right: 13px;    
+  }
+  .nr10-round-container{
+    background-color:#E5E6EB;
+    width: 40px;
+    height: 40px;    
+    border-radius: 20px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nr10-red-dot{
+    position: absolute;
+    background-color:#DE3F4F;
+    width: 20px;
+    height: 20px;    
+    border-radius: 10px;
+    top: 8px;
+    left: 18px;
+    font-size: 13px;
+    font-family: Helvetica;
+    color: white;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+  .nr10-red-dot-right-side{
+    position: absolute;
+    background-color:#DE3F4F;
+    width: 20px;
+    height: 20px;    
+    border-radius: 10px;
+    top: 4px;
+    left: 25px;
+    font-size: 13px;
+    font-family: Helvetica;
+    color: white;    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .nr10-relative{
+    position: relative;
+    height: 61px;
+    display: flex;
+      
+    align-items: center; 
+  }
+
+  /* nr10 augšējā josla beigas*/
+ 
+  /* nr10 rīku josla sākums*/
+
+  .nr10-navigation {
+    max-width: 877px;
+    min-width: 480px;
+    border-top: 1px solid #cfd0d4;
+    border-bottom: 1px solid #cfd0d4;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .nr10-navigation nav a {
+    text-decoration: none;
+    color: #66676b;
+    padding: 1.3125em 1em;
+    line-height: 3.75em;
+  }
+  
+  .nr10-navigation nav .active {
+    color: #0572ef;
+    border-bottom: 0.1875em solid #0572ef;
+  }
+  
+  .nr10-active svg path {
+    fill: #0572ef;
+  }
+  
+  .nr10-navigation a svg {
+    vertical-align: middle;
+    fill: #66676b;
+  }
+  
+  .nr10-options-buttons {
+    padding-top: 0.7em;
+  }
+  
+  .nr10-options-buttons a {
+    line-height: 1.4em;
+    display: inline-block;
+    background: #e5e6eb;
+    padding: 0.5em 0.6875em;
+    border-radius: 0.375em;
+    text-decoration: none;
+  }
+  
+  .nr10-options-buttons a svg {
+    width: 1em;
+    padding-bottom: 0.125em;
+  }
+  
+  .nr10-button-search {
+    position: relative;
+  }
+  .nr10-button-search:hover::before {
+    content: "Search";
+    position: absolute;
+    padding: 0.4em;
+    background: #343434;
+    color: #ffffff;
+    top: 2em;
+    left: 0;
+    animation: example 2s;
+  }
+  
+  @keyframes example {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .nr10-navigation {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 640px) {
+    .nr10-navigation {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 535px) {
+    .nr10-options-buttons a span {
+      display: none;
+    }
+  }
+
+  /* nr10 rīku josla beigas*/
+  
+
