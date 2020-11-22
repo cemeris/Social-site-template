@@ -44,18 +44,18 @@ body {
   }
   .nr10-middle-container{
     position: absolute;    
-    width: 776px;
+    width: 700px;
     height: 61px;
     left: 365px;
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .nr10-name-and-blue-dot-container{
+  .nr10-name-container{
     position: absolute;
-    width: 90px;
     height: 61px;
-    left: 1156px; 
+    width: 165px;    
+    left: 1080px;
   }
   .nr10-right-side-container{
     position: absolute;    
@@ -109,14 +109,14 @@ body {
     top: 16px;
     margin-right: 7px;           
   }
-  .nr10name{
-    position: absolute;    
-    font-size: 18px;
+  .nr10-name{
+    position: absolute;
+    text-align: center;
+    left: 36px;
+    top: 21px;
     color: #080808;
     font-family: Helvetica;
-    top: 21px;
-    margin-left: 37px;
-    margin-right: 13px;    
+    font-size: 18px; 
   }
   .nr10-round-container{
     background-color:#E5E6EB;
@@ -162,10 +162,11 @@ body {
   .nr10-relative{
     position: relative;
     height: 61px;
-    display: flex;
-      
+    display: flex;      
     align-items: center; 
   }
+
+  
 
   /* nr10 augšējā josla beigas*/
  
@@ -178,22 +179,25 @@ body {
     border-bottom: 1px solid #cfd0d4;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;   
+
   }
   
   .nr10-navigation nav a {
+    font-family: Helvetica;
+    font-size: 0.9375em;
     text-decoration: none;
     color: #66676b;
     padding: 1.3125em 1em;
     line-height: 3.75em;
   }
-  
-  .nr10-navigation nav .active {
+
+  .nr10-navigation nav :focus {
     color: #0572ef;
     border-bottom: 0.1875em solid #0572ef;
   }
   
-  .nr10-active svg path {
+  .nr10-navigation nav :focus svg path {
     fill: #0572ef;
   }
   
@@ -203,25 +207,49 @@ body {
   }
   
   .nr10-options-buttons {
-    padding-top: 0.7em;
+    padding-top: 0.75em;
   }
   
   .nr10-options-buttons a {
-    line-height: 1.4em;
-    display: inline-block;
+    line-height: 2.25em;
+    display: inline-block;    
     background: #e5e6eb;
-    padding: 0.5em 0.6875em;
+    /*padding: 0.5em 0.6875em;*/
     border-radius: 0.375em;
     text-decoration: none;
+    font-family: Helvetica;
+    font-size: 0.9375em;
+    color: #080808;
+    height: 2.25em;
+    width: 6.875em;
+    text-align: center;
+    margin-right: 0.2em;
+  }
+
+  .nr10-options-buttons :focus {
+    background: #E9F3FE;
+    color: #0572EF;    
+  }
+  .nr10-options-buttons :focus svg path{
+    fill: #0572ef;
+  }
+  
+  .nr10-options-buttons .small{
+    width: 3em;  
+
   }
   
   .nr10-options-buttons a svg {
     width: 1em;
     padding-bottom: 0.125em;
   }
+
+  
   
   .nr10-button-search {
     position: relative;
+    
+
   }
   .nr10-button-search:hover::before {
     content: "Search";
@@ -258,6 +286,9 @@ body {
   @media only screen and (max-width: 535px) {
     .nr10-options-buttons a span {
       display: none;
+    }
+    .nr10-options-buttons a svg {
+      padding: 2px;
     }
   }
 
