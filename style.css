@@ -301,9 +301,276 @@ body {
     margin: 20.5px 18px 21.5px 299.5px;
   }
 
- 
-  
+ /* nr.2 sākums */
+.main{
+  position: relative;
+  width: 361px;
+  height: 733px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.header-left{
+  position: absolute;
+  width: 58px;
+  height: 24px;
+  left: 16px;
+  top: 15px;
+  bottom: 694px;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #080808;
+}
+.header-right {
+  position: absolute;
+  width: 47px;
+  height: 18px;
+  right: 16px;
+  top: 21px;
+  bottom: 694px;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+  color: #0572EF;
+}
+.header-left:hover {
+  text-decoration: underline #0572EF ;
+}
+.header-right:hover {
+  text-decoration: underline #0572EF ;
+}
+.main map{
+  position: relative;
+  height: 170px;
+  width: 329px;
+  top: 53px;
+  left: 16px;
+}
+.map iframe{
+  left:16px;
+  top:53px;
+  height:170px;
+  width:329px;
+}
+.map map-info {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 14px;
+  bottom: 15px;
+}
+.map locator-red {
+  position: absolute;
+  width: 24px;
+  height: 30px;
+  right: 83px;
+  bottom: 34px; 
+}
+.map whitebox{
+  position: absolute;
+  width: 296px;
+  height: 64px;
+  left: 21px;
+  top: 21px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.whitebox locator-grey{
+  position: absolute;
+  width: 16px;
+  height: 20px;
+  left: 18px;
+  top: 18px;
+}
+.address p{
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #0572EF;
+  position: absolute;
+  left: 48px;
+  top: 14px;
+  width: 102px;
+  height: 38px;
+}
+.info {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 16px;
+  top: 245px;
+}
+.info-text {
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #080808;
+}
+.Lorem {
+  position: absolute;
+  width: 297px;
+  height: 84px;
+  left: 48px;
+  top: 241px;
+}
+.thumbs-up {
+  position: absolute;
+  left: 16px;
+  top: 330px;
+}
 
+.bluer-circle {
+  position: absolute;
+  top: 367px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.circle1{
+  top: 367px;
+  right: 281px;
+  position: absolute;
+}
+.circle2{
+  top: 367px;
+  right: 253px;
+  position: absolute;
+}
+.circle3{
+  top: 367px;
+  right: 225px;
+  position: absolute;
+}
+.circle4{
+  top: 367px;
+  right: 197px;
+  position: absolute;
+}
+.circle5{
+  top: 367px;
+  right: 169px;
+  position: absolute;
+}
+.circle6{
+  top: 367px;
+  right: 141px;
+  position: absolute;
+}
+.circle7{
+  top: 367px;
+  right: 113px;
+  position: absolute;
+}
+.circle8{
+  top: 367px;
+  right: 86px;
+  position: absolute;
+}
+.white-dots{
+  top: 382px;
+  right: 94px;
+  position: absolute;
+}
+.followers {
+  position: absolute;
+  left: 16px;
+  top: 407px;
+}
+.check-ins  {
+  position: absolute;
+  left: 16px;
+  top: 444px;
+} 
+.globe {
+  position: absolute;
+  left: 16px;
+  top: 481px;
+}
+.phone {
+  position: absolute;
+  left: 17px;
+  top: 519px;
+}
+.mail {
+  position: absolute;
+  left: 16px;
+  top: 560px;
+}
+.email {
+  position: absolute;
+  left: 16px;
+  top: 605px;
+}
+.time {
+  position: absolute;
+  left: 16px;
+  top: 639px; 
+}
+.folder{
+  position: absolute;
+  left: 16px;
+  top: 690px; 
+}
+.dot {
+  position: absolute;
+  left: 109px;
+  top: 699px; 
+}
+.black-text {
+  position: absolute;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #080808;
+}
+.black-text:hover{
+  text-decoration: underline #0572EF ;
+}
+.blue-text{
+  position: absolute;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #0572EF;
+}
+.blue-text:hover{
+  text-decoration: underline #0572EF ;
+}
+.red-text{
+  position: absolute;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #DE3F4F;
+}
+.red-text:hover{
+  text-decoration: underline #0572EF ;
+}
+.item-hover:hover{
+  background-color: #0572EF;
+}
+  
+/* nr.2 beigas */
   
 
   
