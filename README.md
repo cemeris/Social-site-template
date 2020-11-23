@@ -9,4 +9,6 @@ Contributors:
 3. Reinis
 4. Jānis
 5. Pārsla
-6. Artūrs Lobanovs
+6. Mārtiņš
+7. Artūrs Lobanovs
+
