@@ -2,4 +2,8 @@
 Social site design
 
 Made by by RCS Programēšanas Pamati team
-Jānis Prusaks
+
+Contributors:
+1. Vitalijs
+2. Ivo
+3. Jānis
