@@ -11,5 +11,8 @@ Contributors:
 5. Pārsla
 6. Mārtiņš
 7. Artūrs Lobanovs
-8. Daniels
+
+8. Agnese
+9. Daniels
+
 
