@@ -1,0 +1,131 @@
+body {
+    background: #fafafa;
+  }
+  main {
+    max-width: 877px;
+    min-width: 480px;
+    background: #cacaca;
+    min-height: 100px;
+    padding: 16px 32px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 375fr 502fr;
+  }
+  
+  .column-left > div {
+    height: 100px;
+    background: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 0 16px 16px 0;
+  }
+  
+  .column-posts > div {
+    min-height: 100px;
+    background: #fff;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 0 0 16px 0;
+  }
+  
+  .scrollable {
+    overflow-x: scroll;
+  }
+  
+  .post-gallery {
+    width: 300%;
+  }
+  
+  .disable-scrollbars {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE 10+ */
+  }
+  
+  .disable-scrollbars::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+  }
+  
+  .post-image {
+    display: inline-block;
+    width: 300px;
+    height: 375px;
+    border-radius: 0.5em;
+    padding-left: 0.375em;
+    border: 1px;
+    border-color: #e5e6eb;
+  }
+  .post-image img {
+    width: 100%;
+  }
+  
+  .post-image h3 {
+    color: #080808;
+    margin-left: 0.8125em;
+  }
+  
+  .post-image p {
+    color: #66676b;
+    margin-left: 0.8125em;
+  }
+  .code_5_infotext {
+    margin-left: 0.8125em;
+    color: #080808;
+  }
+  
+  .code_5_heading {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .code_5_avatar_info {
+    padding-top: 0.6875em;
+    padding-left: 1em;
+  }
+  
+  .code_5_avatar_photo {
+    width: 2.5625em;
+    height: 2.5625em;
+  }
+  
+  .code_5_avatar_name {
+    width: 2.6875em;
+    height: 1.25em;
+  }
+  
+  .code_5_avatatar_time {
+    display: flex;
+    justify-content: start;
+    margin-right: auto;
+  }
+  
+  .code_5_dot {
+    width: 0.125em;
+    height: 0.125em;
+    position: relative;
+    top: 50%;
+  }
+  
+  .code_5_planet {
+    width: 0.75em;
+    height: 0.75em;
+  }
+  .code_5_dots {
+    margin-right: 1.6875em;
+    width: 1em;
+    height: 0.25em;
+  }
+  
+  .code_5_comment-stat {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .code_5_comment-stat p {
+    color: #66676b;
+  }
+  
+  .code_5_comment-who {
+    display: inline-block;
+  }
+  
