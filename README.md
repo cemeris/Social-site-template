@@ -8,4 +8,5 @@ Contributors:
 2. Ivo
 3. Reinis
 4. Jānis
-5. Mārtiņš
+5. Pārsla
+6. Mārtiņš
