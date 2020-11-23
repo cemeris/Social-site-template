@@ -7,3 +7,4 @@ Contributors:
 1. Vitalijs
 2. Ivo
 3. Reinis
+4. Jānis
