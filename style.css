@@ -1,6 +1,74 @@
 body {
-    background: #fafafa;
+  height: 50px;
+  background-color: gray; 
+  background-image: linear-gradient(gray, white);
   }
+
+  .main1 {
+    max-width: 877px;
+    min-width: 480px;
+  }
+
+  .foto {
+    position: relative;
+    height: 341px;
+    width: 941px;
+    display: inline-block;
+    margin: 0 254px 0 243px;
+  }
+
+  .avatar {
+    position: relative;
+    height: 132px;
+    width: 132px;
+    display: inline-block;
+    margin: -15px 0px 25px 253px;
+    border-radius: 100px;
+  }
+
+  .name1 {
+    display: inline-block;
+    position: absolute;
+    margin: 31px 0px 0 28px;
+
+    font-family: Helvetica Neue;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+  } 
+
+  .industry1 {
+    position: static;
+    width: 62px;
+    height: 20px;
+    left: 440px;
+    top: 429px;
+
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #66676B;
+  }
+
+  .booknow { 
+    display: inline-block;
+    background: #0572EF;
+    border-radius: 6px;
+    padding:  10px 105px 20px 127px;
+    height: 20px;
+    margin: 0px 0  48px 420px;
+  }
+
+  .border {
+    width: 877px;
+    height: 1px;
+    left: 285px;
+    top: 490px;
+    background: #9ba3c5;
+  }
+
   main {
     max-width: 877px;
     min-width: 480px;
