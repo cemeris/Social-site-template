@@ -1015,3 +1015,30 @@ body {
   display: inline-block;
 }
 /* 5 bloks biegums*/
+
+/* nr.7 sākums */
+.pageTransparency {
+  min-height: 195px;
+  padding: 16px 16px 16px 16px;
+}
+.configOne {
+  display: flex;
+  justify-content: space-between;
+}
+.configOneX {
+  margin-left: 8px;
+}
+.configTwo {
+  display: flex;
+  justify-content: start;
+}
+.configTwoX {
+  margin-left: 11px;
+}
+.configThree {
+  margin-right: 38px;
+}
+.configThreeX {
+  margin-top: -9px;
+}
+/* nr.7 beigas */
