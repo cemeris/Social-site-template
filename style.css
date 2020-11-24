@@ -1016,6 +1016,25 @@ body {
 }
 /* 5 bloks biegums*/
 
+/* 6 bloka sakums*/
+.pageVideos {
+  min-height: 300px;
+  padding: 16px 16px 16px 16px;
+}
+.configSeeAll {
+  display: flex;
+  justify-content: space-between;
+}
+.configVidoes {
+  margin-left: 8px;
+}
+  .configVideoTitle {
+    margin-left: 20px;
+  }
+
+
+/*6 bloka beigas */
+
 /* nr.7 sākums */
 .pageTransparency {
   min-height: 195px;
