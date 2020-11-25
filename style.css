@@ -1029,32 +1029,35 @@ body {
   margin-left: 8px;
 }
 .nr6-position-VideoTitle {
-    margin-left: 8px;
-  }
-  .nr6-like-counterContainer{
+   margin-left: 8px;
+}
+a:link {
+  text-decoration: none;
+}
+.nr6-like-counterContainer{
     position: absolute;   
     width: 50px;
     height: 25px;
-  }
-  .nr6-Like-icon-position{
+}
+.nr6-Like-icon-position{
     position: absolute;
     top: 4px;
     left: 0px;
-  }
-  .nr6-Like-amount-position{
+}
+ .nr6-Like-amount-position{
     position: absolute;
     top: 4px;
     left: 25px;
-  }
-  .nr6-views-time-container{
+}
+.nr6-views-time-container{
     position: absolute; 
     margin-top: 18px;
     margin-left: 0; 
     width: 200px;
     height: 25px;
     font-size: 12px;
-  }
-  .nr6-video-mask{
+}
+ .nr6-video-mask{
     border-radius: 10px; 
     overflow: hidden; 
 }
