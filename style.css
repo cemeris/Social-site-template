@@ -1017,34 +1017,42 @@ body {
 /* 5 bloks biegums*/
 
 /* 6 bloka sakums*/
-.pageVideos {
+.nr6-pageVideos {
   min-height: 300px;
   padding: 16px 16px 16px 16px;
 }
-.configSeeAll {
+.nr6-boxSeeAll {
   display: flex;
   justify-content: space-between;
 }
-.configVidoes {
+.nr6-position-Vidoes {
   margin-left: 8px;
 }
-  .configVideoTitle {
-    margin-left: 20px;
+.nr6-position-VideoTitle {
+    margin-left: 8px;
   }
-  .nr6-like-counter-container{
+  .nr6-like-counterContainer{
     position: absolute;   
     width: 50px;
     height: 25px;
   }
-  .nr6-Like-icon-class{
+  .nr6-Like-icon-position{
     position: absolute;
     top: 4px;
-    left: 5px;
+    left: 0px;
   }
-  .nr6-Like-amount-class{
+  .nr6-Like-amount-position{
     position: absolute;
     top: 4px;
-    left: 30px;
+    left: 25px;
+  }
+  .nr6-views-time-container{
+    position: absolute; 
+    margin-top: 18px;
+    margin-left: 0; 
+    width: 200px;
+    height: 25px;
+    font-size: 12px;
   }
 
 
