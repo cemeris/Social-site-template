@@ -7,6 +7,7 @@ Contributors:
 1. Vitalijs
 2. Ivo
 3. Reinis
+4. Ralfs
 4. Jānis
 5. Pārsla
 6. Mārtiņš
@@ -14,5 +15,4 @@ Contributors:
 
 8. Agnese
 9. Daniels
-
 
